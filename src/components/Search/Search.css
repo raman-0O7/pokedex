@@ -1,0 +1,9 @@
+.search-bar {
+    width: 600px;
+    margin-top: 2rem;
+    padding-block: 10px;
+    font-family: monospace;
+    letter-spacing: 0.3rem;
+    border: 1px solid;
+    border-radius: 5px;
+}

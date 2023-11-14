@@ -1,0 +1,31 @@
+.pokemon-wrapper {
+    flex-basis: 20%;
+    margin-block: 1rem;
+}
+.pokemon-wrapper:hover {
+    background-color: bisque;
+}
+
+.link > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+p {
+    font-variant: small-caps;
+    letter-spacing: 0.5rem;
+}
+
+img {
+    width: 150px;
+    padding: 10px;
+    height: 80%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    display: block;
+}

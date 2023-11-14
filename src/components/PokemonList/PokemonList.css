@@ -1,0 +1,26 @@
+.pokemonlist-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btns {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    gap: 2rem;
+    margin-block-start: 1rem;
+}
+button {
+   padding-inline: 1rem;
+   padding-block: 0.5rem;
+   font-weight: bold;
+   letter-spacing: 0.2rem;
+}
+
+.loading {
+    display: block;
+    letter-spacing: 0.3rem;
+    font-family: monospace;
+}

@@ -1,0 +1,49 @@
+.pokemon-details-wrapper {
+    width: fit-content;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokemon-detail-name {
+    font-size: xx-large;
+    font-style: oblique;
+    font-variant: small-caps;
+    letter-spacing: 0.3rem;
+    
+}
+
+.pokemon-detail-feature {
+    letter-spacing: 0.2rem;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 600;
+    margin-block: 0.3rem;
+}
+
+.pokemon-detail-type-wrapper {
+    display: flex;
+    
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pokemon-detail-types {
+    background-color: beige;
+    padding: 15px;
+    border: 1px solid bisque;
+    border-radius: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.pokemon-detail-image {
+    max-height: 200px;
+    border: 3px solid bisque;
+    border-radius: 20px;
+}
